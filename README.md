@@ -1,7 +1,13 @@
-# Smart India Hackathon 22 Project (ID: VM 742)
+# Smart India Hackathon Project (ID: VM 742)
 
-## Description
-The Smart India Hackathon Project involves the development of an IoT-based system designed to monitor and control environmental conditions such as temperature and humidity. The project integrates various hardware and software components to provide real-time data and automated control.
+## Overview
+This project was developed for the Smart India Hackathon 2023. It demonstrates an IoT-based system that integrates hardware and software to monitor and control environmental conditions. The system uses Arduino, sensors, and a custom mobile app to help farmers manage temperature and humidity levels efficiently.
+
+## Team Members
+- Vartika Bhujbal
+- Youvraj Palariya
+- Palak Katare
+- Rahul Yadav
 
 ## Key Skills Used
 - Embedded C
@@ -9,38 +15,42 @@ The Smart India Hackathon Project involves the development of an IoT-based syste
 - API Integration
 - Java
 
-## Features
-- **IoT Integration:** Connected hardware (Arduino and sensors) with software to enable seamless communication for real-time monitoring and control of temperature and humidity levels.
-- **ESP8266 WiFi Module:** Programmed to transmit real-time sensor data to a custom-built mobile app using appropriate communication protocols.
-- **Weather Forecasting API:** Integrated to automatically adjust environmental controls in response to sudden weather changes.
-- **Bilingual Mobile App:** Designed and developed an app in both Hindi and English to help farmers easily monitor and control environmental conditions.
+## Project Description
+The project involved creating an integrated IoT system with the following features:
 
-## Installation and Setup
-1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/yourusername/yourrepository.git
-    ```
+- **Hardware Integration**: Utilized Arduino and DHT11 sensors to measure temperature and humidity levels in real-time. The system controls the environment by turning the heater and compressor on and off based on sensor readings.
 
-2. **Install Dependencies:**
-    - Follow the specific instructions for setting up the Arduino environment and libraries required for the ESP8266 WiFi module.
-    - Set up the mobile app development environment as per the requirements listed in the app documentation.
+- **WiFi Communication**: Programmed the ESP8266 WiFi module to transmit real-time sensor data to a custom-built mobile app, allowing remote monitoring and control.
 
-3. **Upload Code to Arduino:**
-    - Use the Arduino IDE to upload the provided code to the Arduino board.
+- **Weather Forecasting**: Integrated a weather forecasting API to adjust environmental controls in response to sudden changes in weather conditions, ensuring optimal conditions are maintained.
 
-4. **Run the Mobile App:**
-    - Install the mobile app on your device from the provided APK or app store link.
+- **Mobile App Development**: Designed and developed a bilingual (Hindi and English) mobile app to enable farmers to easily monitor and manage temperature and humidity levels from their mobile devices.
 
-## Usage
-- **Manual Mode:** Users can monitor and manually adjust temperature and humidity conditions using the mobile app.
-- **Automated Mode:** The system will automatically adjust controls based on weather forecasts received through the integrated API.
+## Installation
+To set up and run the project, follow these steps:
 
-## Contribution
-- Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+1. **Hardware Setup**:
+   - Connect the DHT11 sensors to the Arduino board.
+   - Integrate the ESP8266 WiFi module with the Arduino for data transmission.
+
+2. **Software Setup**:
+   - Upload the Arduino code to the board using the Arduino IDE.
+   - Set up the mobile app on your device.
+
+3. **Configuration**:
+   - Configure the weather forecasting API in the mobile app for accurate data.
+
+## How to Use
+1. **Monitoring**: Open the mobile app to view real-time temperature and humidity data.
+2. **Control**: Use the app to switch between manual and automatic modes for controlling environmental conditions.
+3. **Weather Forecast**: The app will automatically adjust controls based on weather forecasts.
+
+## Contributing
+Feel free to contribute to the project by submitting issues or pull requests. For any queries, contact the team members listed above.
 
 ## License
-- This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Contact
-- For any questions or inquiries, please contact [shivamsingh13653@gmail.com] or open an issue on this repository.
-
+## Acknowledgments
+- Smart India Hackathon 2023
+- Arduino and ESP8266 communities
