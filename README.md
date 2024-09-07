@@ -8,6 +8,9 @@ This project was developed for the Smart India Hackathon 2023. It demonstrates a
 - Youvraj Palariya
 - Palak Katare
 - Rahul Yadav
+![Image :1](https://github.com/Shivam1979/Smart_India_hackathon22/blob/main/img1.jpg)
+
+![Image :2](https://github.com/Shivam1979/Smart_India_hackathon22/blob/main/img2.jpg)
 
 ## Key Skills Used
 - Embedded C
